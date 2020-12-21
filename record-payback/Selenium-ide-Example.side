@@ -1,0 +1,254 @@
+{
+  "id": "c26bdb0d-66c5-48df-a9f6-20c213e6b796",
+  "version": "2.0",
+  "name": "Selenium-ide-Example",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "4e04fc53-f1cb-492b-bb42-fe7943f90f86",
+    "name": "Selenium Test Examples",
+    "commands": [{
+      "id": "2657b034-7e6e-494b-ba4f-595f00b238be",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41a12cfe-debb-4249-9dde-0b61d96a30b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25f02980-dc8f-4fbc-abf4-f8b1e1fd7ae4",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "stackoverflow"
+    }, {
+      "id": "2f6f8b54-1ff2-437d-a97e-5551f2a38b2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchform",
+      "targets": [
+        ["id=searchform", "id"],
+        ["css=#searchform", "css:finder"],
+        ["xpath=//div[@id='searchform']", "xpath:attributes"],
+        ["xpath=//div[@id='viewport']/div[4]", "xpath:idRelative"],
+        ["xpath=//body/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f61f5b14-e515-45a8-9e5d-95c2cb3ab04d",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48617d0b-64ff-4c8b-b9f9-ada31d11e471",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .rc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .rc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Stack Overflow - Where Developers Learn, Share, & Build ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b822d779-4d48-4af4-b3f4-c5bdfec3884a",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bcbb1d0-e755-43f2-9579-9661b879476a",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19af0fce-79da-42cd-821c-5ff678c1abbe",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "797b3255-0a04-4d4a-aa65-3c665de3f669",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed2acb40-7eee-4ecb-870d-c0dfaa8c1c48",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e49b05d6-ee87-401a-962c-2b6b5f5c7bbc",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "638f7c0f-f8a1-4c23-bf10-a8a479f1f38c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=how do you amend user input to list and then permanently store that list for future reference in python selenium",
+      "targets": [
+        ["linkText=how do you amend user input to list and then permanently store that list for future reference in python selenium", "linkText"],
+        ["css=#question-summary-59640680 .question-hyperlink", "css:finder"],
+        ["xpath=//a[contains(text(),'how do you amend user input to list and then permanently store that list for future reference in python selenium')]", "xpath:link"],
+        ["xpath=//div[@id='question-summary-59640680']/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/questions/59640680/how-do-you-amend-user-input-to-list-and-then-permanently-store-that-list-for-fut')]", "xpath:href"],
+        ["xpath=//div[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'how do you amend user input to list and then permanently store that list for future reference in python selenium')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd9e3b68-5f78-4f8c-b13a-937d406ea7dd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=how do you amend user input to list and then permanently store that list for future reference in python selenium",
+      "targets": [
+        ["linkText=how do you amend user input to list and then permanently store that list for future reference in python selenium", "linkText"],
+        ["css=#question-summary-59640680 .question-hyperlink", "css:finder"],
+        ["xpath=//a[contains(text(),'how do you amend user input to list and then permanently store that list for future reference in python selenium')]", "xpath:link"],
+        ["xpath=//div[@id='question-summary-59640680']/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/questions/59640680/how-do-you-amend-user-input-to-list-and-then-permanently-store-that-list-for-fut')]", "xpath:href"],
+        ["xpath=//div[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'how do you amend user input to list and then permanently store that list for future reference in python selenium')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1efa71f-8010-4fbe-a428-4daf35fba64c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,480.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9217b021-a562-49c7-9d72-d841264c37b2",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input__search", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18678967-5177-4ec2-860c-a70f49faa54c",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input__search", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "[selenium] [version] [chrome]"
+    }, {
+      "id": "a09c28fb-2f2d-455f-9a83-c0647026fe3f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.s-input__search", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fa290322-acf2-48cf-8a26-2eacdf7808e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Which ChromeDriver version is compatible with which Chrome Browser version?",
+      "targets": [
+        ["linkText=Which ChromeDriver version is compatible with which Chrome Browser version?", "linkText"],
+        ["css=#question-summary-41133391 .question-hyperlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Which ChromeDriver version is compatible with which Chrome Browser version?')]", "xpath:link"],
+        ["xpath=//div[@id='question-summary-41133391']/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/questions/41133391/which-chromedriver-version-is-compatible-with-which-chrome-browser-version')]", "xpath:href"],
+        ["xpath=//div[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Which ChromeDriver version is compatible with which Chrome Browser version?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a2cd7f8f-44e6-4485-852d-ca2d8a14f5e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4e04fc53-f1cb-492b-bb42-fe7943f90f86"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
